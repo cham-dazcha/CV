@@ -87,3 +87,42 @@ ul li {
     font-size: 16px;
   }
 }
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .left, .right {
+    width: 100%;
+  }
+
+  /* Khusus agar kolom kiri tidak turun, set jadi setengah lebar */
+  .left {
+    width: 40%;
+  }
+
+  .right {
+    width: 60%;
+  }
+
+  .name {
+    font-size: 18px;
+  }
+
+  body {
+    font-size: 15px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  ul li {
+    font-size: 14px;
+  }
+
+  .software-icons img {
+    width: 30px;
+  }
+}
