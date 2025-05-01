@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  .left {
+    width: 35%;
+    background: #e8c598;
+    padding: 20px;
+    color: black;
+  }
+  
+  .right {
+    width: 65%;
+    padding: 20px;
+  }
+  
+  .profile-pic {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    background: #c38c45;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 0 0 20px 0;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #c38c45;
+    padding-bottom: 5px;
+    margin-top: 20px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  .software-icons img {
+    width: 40px;
+    margin-right: 10px;
+  }
+  
